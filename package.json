@@ -1,0 +1,25 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "production": "NODE_ENV=production node ./server",
+    "dev": "NODE_ENV=development node ./server",
+    "test": "yarn run start & jest"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.2",
+    "helmet": "^3.6.1",
+    "mongodb": "^2.2.26",
+    "ramda": "^0.23.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "^20.0.1",
+    "morgan": "^1.8.2",
+    "supertest": "^3.0.0"
+  }
+}
